@@ -1,6 +1,6 @@
 <resources>
     <string name="app_name">N_VibeTest</string>
     <string name="title_activity_maps">MapsActivity</string>
-    <string name="google_map_api_key">AIzaSyDAuO3VpeqvQGS1pts5N56tjEdrFb4sX9w</string>
-    <string name="google_services_api_key">AIzaSyAf0J2cJbKTP9wjZfDHlekyQZpx6q1Cx7A</string>
+    <string name="google_map_api_key">"your API KEy"</string>
+    <string name="google_services_api_key">"Your API key"</string>
 </resources>
