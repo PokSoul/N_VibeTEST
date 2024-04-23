@@ -26,7 +26,7 @@ L'application suit une architecture simplifiée basée sur le modèle MVC (Modè
 
 1. Clonez le dépôt vers votre environnement de développement Android.
 2. Ouvrez le projet dans Android Studio.
-3. Configurez votre clé API Google Maps dans le fichier `google_maps_api.xml`.
+3. Configurez votre clé API Google Maps dans le fichier `strings.xml`.
 4. Compilez et exécutez l'application sur un émulateur Android ou un appareil physique.
 
 ## Configuration requise
