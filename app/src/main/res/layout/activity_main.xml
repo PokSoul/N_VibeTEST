@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- EditText pour l'adresse de départ -->
+    <EditText
+        android:id="@+id/etDepart"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Adresse de départ"
+        android:layout_margin="16dp"/>
+
+    <!-- EditText pour l'adresse d'arrivée -->
+    <EditText
+        android:id="@+id/etArrivee"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Adresse d'arrivée"
+        android:layout_below="@id/etDepart"
+        android:layout_margin="16dp"/>
+
+    <TextView
+        android:id="@+id/tvDuration"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Durée estimée de marche : "
+        android:textSize="16sp"
+        android:textColor="@color/textColorLight"
+        android:layout_marginTop="8dp"
+        android:layout_marginStart="16dp"
+        android:layout_below="@id/etArrivee"
+        android:layout_marginEnd="16dp"/>
+
+
+    <!-- Bouton de recherche -->
+    <Button
+        android:id="@+id/btnRechercher"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rechercher"
+        android:layout_below="@id/tvDuration"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"/>
+
+    <!-- Fragment de la carte -->
+    <fragment
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/btnRechercher"/>
+
+</RelativeLayout>
